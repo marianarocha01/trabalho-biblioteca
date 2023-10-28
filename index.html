@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Um pouco sobre mim</title>
+	
+	  <!-- Adicionando o link para a biblioteca de estilos do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<br>
+	<button type="button" class="btn btn-primary">
+  Notifications <span class="badge text-bg-secondary">4</span>
+</button>
+	
+    <style>
+		
+        body {
+            background-color: lightpink;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        h1, p, h2, form {
+            text-align: center;
+            color: whitesmoke;
+        }
+
+        h1 {
+            color: deeppink;
+        }
+
+        h2 {
+            color: hotpink;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }  
+    </style>
+</head>
+<body>
+	<br>	
+    <h1>Um pouco sobre mim</h1>
+	<br>
+	<br>
+	<br>
+    <p>Olá, eu sou a Mariana Rocha.</p>
+    <p>Tenho 19 anos e estou a tirar a licenciatura de Comunicação Audiovisual e Multimídia.</p>
+    <p>No secundário tirei um curso profissional técnico Audiovisual e desde aí que percebi que queria fazer isto do meu futuro.</p>
+    <br>
+    <br>
+    <h2>Fotografia ou Vídeo?</h2>
+	<br>
+    <div style="text-align: center;">
+        <img src="https://cdn-icons-png.flaticon.com/512/1942/1942191.png" alt="câmara fotográfica"
+             height="200px"
+             width="200px"
+             style="margin-right: 40px;">
+		
+        <img src="https://cdn-icons-png.flaticon.com/512/4697/4697431.png" alt "câmara de vídeo"
+             height="200px"
+             width="200px"
+             style="margin-left: 40px;">
+    </div>
+    <form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label for="selecao"><b>O que preferes:</b></label>
+        <input type="checkbox" id="video" name="video"> Vídeo
+        <input type="checkbox" id="fotografia" name="fotografia"> Fotografia
+        <br>
+        <br>
+        <label for="atividade"><b>Um hobby teu:</b></label>
+        <input type="text" id="atividade" name="atividade">
+    </form>
+</body>
+</html>
